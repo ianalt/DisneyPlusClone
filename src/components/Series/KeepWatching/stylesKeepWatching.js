@@ -5,8 +5,6 @@ const stylesKeepWatching = StyleSheet.create({
     container: {
         marginTop: 20,
         marginBottom: 20,
-        /*         borderColor: '#f00',
-                borderWidth: 1, */
     },
 
     title: {
@@ -18,7 +16,7 @@ const stylesKeepWatching = StyleSheet.create({
 
     btnKeepWatching: {
         borderRadius: 5,
-        marginHorizontal: 5,
+        marginHorizontal: 10,
 
     },
 

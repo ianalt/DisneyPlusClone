@@ -6,10 +6,13 @@ const stylesLogin = StyleSheet.create({
     mainContainer: {
         flex: 1,
         backgroundColor: '#1a1d29',
+        alignItems: 'center',
     },
 
     loginContainer: {
-        marginLeft: 20,
+        width: '100%',
+        justifyContent: 'center',
+        alignItems: 'center',
     },
 
     title: {
@@ -18,6 +21,8 @@ const stylesLogin = StyleSheet.create({
         fontWeight: 'bold',
         color: '#fff',
         marginBottom: 20,
+        alignSelf: 'flex-start',
+        marginLeft: 20,
 
     },
 
@@ -48,6 +53,8 @@ const stylesLogin = StyleSheet.create({
 
     questionBox: {
         flexDirection: 'row',
+        alignSelf: 'flex-start',
+        marginLeft: 20,
     },
 
     question: {
